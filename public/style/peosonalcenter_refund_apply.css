@@ -1,0 +1,65 @@
+@charset "utf-8";
+#contents .rightCon .ordermenutit { width:788px; height:31px; line-height:31px; border-right:1px solid #dcdcdc; border-left:1px solid #dcdcdc; background:url(../images/personalcenter/bg_ordertit.jpg) repeat-x; margin-top:7px;}
+#contents .rightCon .ordermenutit .ordermenu_left li { font-weight:bold;}
+#contents .rightCon .refund_rule { width:770px; border:1px solid #ffdf92; padding-left:18px; background:#fff4d8;}
+#contents .rightCon .refund_rule .tit { height:29px; line-height:29px; color:#2b2b2b; }
+#contents .rightCon .refund_rule .tab { width:749px; border-left:1px solid #dcdcdc; border-top:1px solid #dcdcdc;  }
+#contents .rightCon .refund_rule .tab th { font-weight:normal; height:46px; background:#f0f0f0; border-bottom:1px solid #dcdcdc;}
+#contents .rightCon .refund_rule .tab .lastth { border-right:1px solid #dcdcdc;}
+#contents .rightCon .refund_rule .tab td { border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; background:#fff;} 
+#contents .rightCon .refund_rule .tab .longtext { padding:3px 7px; line-height:18px;}
+#contents .rightCon .refund_rule .tab .shottext { text-align:center; }
+#contents .rightCon .refund_rule dl { padding-top:10px;}
+#contents .rightCon .refund_rule dl dt{ height:24px; font-weight:bold; color:#2b2b2b; }
+#contents .rightCon .refund_rule dl dd { line-height:23px; text-indent:-18px; padding-left:18px; color:#2b2b2b;}
+#contents .rightCon .pro_tab { width:789px; margin-top:10px; border-left:1px solid #dcdcdc; border-top:1px solid #dcdcdc;}
+#contents .rightCon .pro_tab th { font-weight:normal; color:#2b2b2b; height:29px; border-bottom:1px solid #dcdcdc;}
+#contents .rightCon .pro_tab td { border-bottom:1px solid #dcdcdc; border-right:1px solid #dcdcdc;}
+#contents .rightCon .pro_tab .protit{ height:23px; background:#f6f6f6; border-bottom:1px solid #dcdcdc; }
+#contents .rightCon .pro_tab .protit .ordernum { float:left; padding-left:8px; }
+#contents .rightCon .pro_tab .protit .ordertime { float:right; padding-right:8px;} 
+#contents .rightCon .pro_tab .line1  { width:378px; padding:11px 0 0 10px; line-height:18px;}
+#contents .rightCon .pro_tab .line1 img { float:left; border:1px solid #dcdcdc; margin-right:3px;}
+#contents .rightCon .pro_tab .dl1 { padding:14px 0 0 25px; height:40px; clear:both;}
+#contents .rightCon .pro_tab .dl1 dt { float:left; width:52px; line-height:18px;}
+#contents .rightCon .pro_tab .dl1 dt span { display:inline-block; width:30px; height:17px; line-height:17px; text-align:center; background:#c9003d; color:#fff;}
+#contents .rightCon .pro_tab .dl1 dd { float:left; width:245px; line-height:18px; }
+#contents .rightCon .pro_tab .passageInfo { padding:25px 0 0 5px;}
+#contents .rightCon .pro_tab .passageInfo dl { height:48px;}
+#contents .rightCon .pro_tab .passageInfo dl dt { float:left; width:67px;}
+#contents .rightCon .pro_tab .passageInfo dl dd { float:left; width:234px; line-height:23px; color:#2b2b2b;}
+#contents .rightCon .pro_tab .buynum { text-align:center;}
+#contents .rightCon .refund_info { width:788px; border:1px solid #dcdcdc; margin-top:10px; margin-bottom:10px;}
+#contents .rightCon .refund_info .inputInfotit { padding-left:8px; height:29px; line-height:29px; color:#2b2b2b; font-weight:bold; border-bottom:1px solid #dcdcdc;}
+#contents .rightCon .refund_info .inputInfocon { padding:13px 0 20px 0; width:788px; zoom:1;} 
+#contents .rightCon .refund_info .inputInfocon:after { content:""; clear:both; display:block; height:0;}
+#contents .rightCon .refund_info .inputInfocon dl { width:750px; margin-bottom:14px; zoom:1; }
+#contents .rightCon .refund_info .inputInfocon dl:after {  content:""; clear:both; display:block; height:0;}
+#contents .rightCon .refund_info .inputInfocon dl dt { float:left; width:116px; height:26px; line-height:26px; text-align:right;}
+#contents .rightCon .refund_info .inputInfocon dl dd { float:left; padding-left:10px; width:622px; line-height:26px; color:#2b2b2b;}
+#contents .rightCon .refund_info .inputInfocon dl dd .chat { display:inline-block; width:60px; height:25px; line-height:25px; padding-left:20px; background:url(../images/personalcenter/bg_chat2.png) no-repeat; color:#c9003d; margin-left:9px; }
+#contents .rightCon .refund_info .inputInfocon dl dd .text { width:518px; height:138px; border-left:1px solid #666; border-top:1px solid #666; border-right:1px solid #666; border-bottom:1px solid #666;}
+#contents .rightCon .refund_info .inputInfocon dl dd .uoloadimg { width:72px; height:26px; line-height:26px; text-align:center; color:#2b2b2b; background:url(../images/personalcenter/uploadimg.png) no-repeat;}
+#contents .rightCon .refund_info .inputInfocon dl .twotd { padding-left:126px;}
+#contents .rightCon .refund_info .inputInfocon dl .radio { float:left; width:67px; height:25px; line-height:25px;}
+#contents .rightCon .refund_info .inputInfocon dl .radio  span { float:left; display:inline-block; margin:6px 5px 0 0;}
+#contents .rightCon .refund_info .inputInfocon dl dd .num { float:left; width:108px; padding-top:5px; text-align:center;}
+#contents .rightCon .refund_info .inputInfocon dl dd .num .num1 { float:left; width:13px; height:13px;  text-align:center; line-height:13px; background:#fff; border:1px solid #dcdcdc; margin:3px 4px 0 0; cursor:pointer;}
+#contents .rightCon .refund_info .inputInfocon dl dd .num .num2 { float:left; width:33px; height:18px; text-align:center; line-height:18px; background:#fff; border:1px solid #dcdcdc; margin-right:4px;} 
+#contents .rightCon .refund_info .inputInfocon dl dd .num .num3 { float:left; width:13px; height:13px;  text-align:center; line-height:13px; background:#fff; border:1px solid #dcdcdc; margin-top:3px; cursor:pointer;}
+#contents .rightCon .refund_info .inputInfocon dl dd .checkbox { display:inline-block; float:left; margin:6px 3px 0 0;}
+#contents .rightCon .refund_info .inputInfocon dl dd .selBackWay{ float:left; width:112px; height:25px; line-height:25px; }
+#contents .rightCon .refund_info .inputInfocon dl dd .selBackWay span { float:left; display:inline-block; margin:6px 5px 0 0;}
+#contents .rightCon .refund_info .inputInfocon dl dd .selBackdes { float:left; color:#666;} 
+
+#contents .rightCon .refund_info .inputInfocon .savebutton { width:94px; height:34px; line-height:34px; text-align:center; background:url(../images/personalcenter/but_save.png) no-repeat; font-weight:bold; color:#fff; margin:18px 0 0 110px; font-size:14px;}
+
+#contents .rightCon .refund_info .inputInfocon .imgslist { width:352px; position:relative;}
+#contents .rightCon .refund_info .inputInfocon .imgslist .renfundimgs { float:left; padding-top:5px; width:300px; height:60px; padding-left:10px;}
+#contents .rightCon .refund_info .inputInfocon .imgslist .renfundimgs li { float:left; border:1px solid #dcdcdc; width:50px; height:50px; margin-left:7px; position:relative;}
+#contents .rightCon .refund_info .inputInfocon .imgslist .renfundimgs li em { width:12px; height:12px; background:url(../images/personalcenter/icon_refud_close.jpg) no-repeat; position:absolute; right:0; bottom:0; cursor:pointer;}
+.imgslist .proimgs_leftbut { float:left; width:13px; height:34px; padding-top:26px; text-align:center; border:1px solid #dcdcdc; border-radius:2px 10%; cursor:pointer; background:url(../images/productPage/icon/leftbutton.png) 2px 26px no-repeat;} 
+.imgslist .proimgs_leftbut:hover { border:1px solid #666; background:#dcdcdc url(../images/productPage/icon/leftbuttonhover.png) 2px 26px no-repeat;}
+.imgslist .proimgs_rightbut { float:left; width:13px; height:34px; padding-top:26px; text-align:center; border:1px solid #dcdcdc; border-radius:2px 10%; cursor:pointer; background:url(../images/productPage/icon/rightbutton.png) 4px 26px no-repeat; position:absolute; right:0;}
+.imgslist .proimgs_rightbut:hover { border:1px solid #666;  background:#dcdcdc url(../images/productPage/icon/rightbuttonhover.png) 4px 26px no-repeat;}
+.uploadtips { clear:both;}

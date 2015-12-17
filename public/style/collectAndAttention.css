@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* 覆盖以前样式 */
+#contents .rightCon .ordermenutit { margin-top:7px;}
+#contents .rightCon .ordermenucon dl .ddhover { background:#c9003d; color:#fff; }
+#contents .rightCon .ordermenucon dl .sel_checkbox { display:inline-block; float:left; margin:2px 4px 0 0;}
+#contents .rightCon .ordersate_con { margin-top:10px; border-top:1px solid #dcdcdc;} 
+#contents .rightCon .ordersat_con2 { border:none; border-top:1px solid #dcdcdc;}
+#contents .rightCon .ordersate_con .center_contit{ width:788px; height:32px; line-height:32px; background:url(../images/personalcenter/bg_collecttit.jpg) repeat-x;}
+#contents .rightCon .ordersate_con .center_contit .selectAll { display:inline-block; float:left; margin:9px 3px 0 5px; }
+#contents .rightCon .ordersate_con .center_contit label { float:left; margin-right:5px;}
+#contents .rightCon .ordersate_con .center_contit .addtoshopcar { float:left; display:inline-block; padding-left:20px; width:58px; height:23px; line-height:23px; color:#fff; background:url(../images/personalcenter/addtoshopcar.png) no-repeat; margin:4px 9px 0 7px;}
+#contents .rightCon .ordersate_con .center_contit .pagenum2 { float:right; padding-right:12px;}
+#contents .rightCon .ordersate_con .center_contit .pagenum2 .turnright { display:inline-block; width:13px; height:13px; border:1px solid #dcdcdc; background:url(../images/personalcenter/bg_pagenum4.jpg) no-repeat; cursor:pointer;}
+#contents .rightCon .ordersate_con .center_contit .pagenum2 .turnrightcurrent { background:url(../images/personalcenter/bg_pagenum.jpg) no-repeat;}
+#contents .rightCon .ordersate_con .center_contit .pagenum2 .turnleft { display:inline-block; width:13px; height:13px; border:1px solid #dcdcdc; background:url(../images/personalcenter/bg_pagenum3.jpg) 
+no-repeat; cursor:pointer; }
+#contents .rightCon .ordersate_con .center_contit .pagenum2 .turnleftcurrent { background:url(../images/personalcenter/bg_pagenum2.jpg) no-repeat;}
+#contents .rightCon .ordersate_con .tab { width:788px;}
+#contents .rightCon .ordersate_con .tab th { font-weight:normal; border-bottom:1px solid #dcdcdc;}
+#contents .rightCon .ordersate_con .tab td { padding:10px 0; border-bottom:1px solid #dcdcdc;} 
+#contents .rightCon .ordersate_con .tab td .select { display:inline-block; float:left; padding:22px 4px 0 3px;}
+#contents .rightCon .ordersate_con .tab td .proinfo { width:311px; height:60px; line-height:18px; position:relative;}
+#contents .rightCon .ordersate_con .tab td .proinfo a { color:#2b2b2b;}
+#contents .rightCon .ordersate_con .tab td .proinfo p { position:relative;}
+#contents .rightCon .ordersate_con .tab td .proinfo p a { color:#004dcd;}
+
+.addlabel { position:absolute; width:314px; border:3px solid rgba(102,102,102,0.2); top:28px; left:160px; background:#fffcf5; z-index:100; display:none;}
+.addlabel .close { width:19px; height:19px; background:url(../images/personalcenter/close_label.png) no-repeat; position:absolute; right:4px; top:4px; cursor:pointer;}
+.addlabel .icon { width:21px; height:24px; background:url(../images/personalcenter/icon_window.png) no-repeat; position:absolute; left:-20px; top:3px;}
+.addlabel .content1 { width:312px; border:1px solid #fff0ca;}
+.addlabel .content1 .warocontent { width:274px; height:81px; padding:10px; border:1px solid #fff0ca; background:#fff; margin:8px; }
+.addlabel .content1 .warocontent .input_text { float:left; width:161px; height:24px; line-height:24px; border-left:1px solid #666;  border-top:1px solid #666;  border-right:1px solid #666;  border-bottom:1px solid #666; margin-right:11px; padding-left:5px; }
+.addlabel .content1 .warocontent .input_sure { float:left; width:49px; height:25px; text-align:center; line-height:25px; background:url(../images/personalcenter/buttonsure.png) no-repeat; color:#666; margin-right:7px; border:none;}
+.addlabel .content1 .warocontent .detail { clear:both; padding-top:11px; width:266px; line-height:18px; color:#666;}
+
+#contents .rightCon .ordersate_con .tab td .proinfo img { float:left; border:1px solid #dcdcdc; margin-right:11px;}
+#contents .rightCon .ordersate_con .tab .pice { text-align:center; line-height:28px; }
+#contents .rightCon .ordersate_con .tab .pice .num { font-size:18px; font-family:"微软雅黑"; font-weight:bold;}
+#contents .rightCon .ordersate_con .tab .pice .active { padding:2px 3px; background:#c9003d; color:#fff; position:relative; cursor:pointer;}
+#contents .rightCon .ordersate_con .tab .pice .active .addlabel { width:282px; left:47px; top:-10px;}
+#contents .rightCon .ordersate_con .tab .pice .active .addlabel .content1 { width:280px; }
+#contents .rightCon .ordersate_con .tab .pice .active .addlabel .content1 .warocontent { width:245px; height:auto; margin:8px; line-height:44px; color:#666; text-align:left; padding:8px;}
+#contents .rightCon .ordersate_con .tab .pice .active .addlabel .content1 .warocontent .gift { width:220px; line-height:18px; margin-bottom:14px;}
+#contents .rightCon .ordersate_con .tab .pice .active .addlabel .content1 .warocontent .gift img { float:left; margin-right:5px; border:1px solid #dcdcdc;}
+#contents .rightCon .ordersate_con .tab .cellectTime { text-align:center;}
+#contents .rightCon .ordersate_con .tab .fun { text-align:center;}
+#contents .rightCon .ordersate_con .tab .fun p { line-height:18px;}
+#contents .rightCon .ordersate_con .tab .fun .addtoshopcar { display:inline-block; width:66px; padding-left:23px; height:23px; background:url(../images/personalcenter/addtoShopcar2.png) no-repeat; text-align:center; line-height:23px; color:#666; }
+#contents .rightCon .ordersate_con .tab .fun .nopro { display:inline-block; width:89px; height:23px; background:url(../images/personalcenter/nopro.png) no-repeat; text-align:center; line-height:23px; color:#666; }
+#contents .rightCon .ordersate_con .collectlog { margin-top:10px; width:788px; border:1px solid #dcdcdc;zoom:1;}
+#contents .rightCon .ordersate_con .collectlog:after { content:""; display:block; clear:both; height:0;}
+#contents .rightCon .ordersate_con .collectlog .lefttit { float:left; width:198px; height:228px; border-right:1px solid #dcdcdc;}
+#contents .rightCon .ordersate_con .collectlog .lefttit .shopname2 { color:#666; line-height:20px;}
+#contents .rightCon .ordersate_con .collectlog .lefttit .sel { width:198px; height:18px;}
+#contents .rightCon .ordersate_con .collectlog .lefttit .sel span { display:inline-block; float:left; margin:3px 0 0 3px;}
+#contents .rightCon .ordersate_con .collectlog .lefttit .log { width:198px; height:88px; text-align:center; position:relative;}
+#contents .rightCon .ordersate_con .collectlog .lefttit .log .logname { position:absolute; left:80px; top:40px;}
+#contents .rightCon .ordersate_con .collectlog .lefttit .text { padding-left:3px; width:198px; height:83px; line-height:22px; color:#2b2b2b; }
+#contents .rightCon .ordersate_con .collectlog .lefttit .buttons { width:198px;}
+#contents .rightCon .ordersate_con .collectlog .lefttit .buttons .button1 { float:left; width:90px; height:25px; text-align:center; line-height:25px;  color:#2b2b2b; background:url(../images/personalcenter/leftbutton1.png) no-repeat; margin:0 12px 0 3px; }
+#contents .rightCon .ordersate_con .collectlog .lefttit .buttons .button2 { background:url(../images/personalcenter/leftbutton2.png) no-repeat; margin:0;}
+#contents .rightCon .ordersate_con .collectlog .right_con { float:left; width:589px; height:228px; } 
+#contents .rightCon .ordersate_con .collectlog .right_con .tit { width:589px; height:28px; background:#f4f3f3; border-bottom:1px solid #dcdcdc;}
+#contents .rightCon .ordersate_con .collectlog .right_con { float:left; width:589px; height:228px; } 
+#contents .rightCon .ordersate_con .collectlog .right_con .tit li { float:left; width:69px; height:28px;line-height:28px; text-align:center; color:#666; cursor:pointer; border-right:1px solid #dcdcdc; }
+#contents .rightCon .ordersate_con .collectlog .right_con .tit .lihover { background:#fff; color:#c9003d;}
+.showpro { width:589px; height:199px; display:none;}
+.showpro .prev { float:left; width:40px; height:120px; padding-right:2px; background:url(../images/thirdpage/icon_arrow_left.jpg) 6px 40px no-repeat; text-indent:-99999px;}
+.showpro .prev:hover{ background:url(../images/thirdpage/icon_arrow_lefthover.jpg) 6px 40px no-repeat;}
+.showpro .next { float:left; display:block; width:40px; height:170px; background:#fff url(../images/thirdpage/icon_arrow_right.png) 6px 40px no-repeat; text-indent:-99999px; position:absolute; left:930px; z-index:100;}
+.showpro .next:hover{ background:#fff url(../images/thirdpage/icon_arrow_righthover.png) 6px 40px no-repeat;}
+.showpro .shoplist { padding:20px 0 0 30px; width:558px; height:178px; }
+.showpro .shoplist li { float:left; width:125px; height:178px; margin-right:10px; }
+.showpro .shoplist li img { margin-bottom:8px;}
+.showpro .shoplist li .shopname { width:125px; height:26px; text-align:center; color:#666;}
+.showpro .shoplist li .shopinfo { width:124px; height:25px; padding-left:1px;}
+.showpro .shoplist li .entershop { width:124px; text-align:center;}
+.showpro .shoplist li .entershop .button_link { display:inline-block; width:90px; height:25px; line-height:25px; text-align:center; color:#666; background:url(../images/personalcenter/leftbutton1.png) no-repeat; } 
+.prolist2 { width:530px; height:199px;}
+.prolist2 li { float:left; width:124px; height:199px; margin-right:10px;}
+.prolist2 li .price { width:124px; height:33px; line-height:33px; font-family:"微软雅黑"; font-size:14px; font-weight:bold; text-align:center; }
+.prolist2 li .protit { width:124px; line-height:18px; text-align:center;}
+.prolist2 li .protit a { color:#2b2b2b;}
+.prolist2 li .protit a:hover { color:#c9003d; text-decoration:underline; }
+#shop { display:none;}
+

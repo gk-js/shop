@@ -1,0 +1,24 @@
+@charset "utf-8";
+#contents .news_title { width:980px; height:62px; line-height:62px; text-align:center; font-family:"微软雅黑"; font-size:24px; font-weight:bold; color:#2b2b2b; }
+#contents .news_con { width:980px; padding:32px 0 40px 0; background:url(../images/news/bg_detail.jpg) top repeat-x;}
+#contents .news_con p { width:980px; line-height:24px;}
+#contents .news_con .author { padding-top:120px; width:980px; text-align:right; line-height:24px; color:#2b2b2b;}
+#contents .news_con .date { width:980px; text-align:right; line-height:24px; color:#2b2b2b;}
+/* 推荐 */
+#mc { width:980px; margin-bottom:39px;}
+#mc .mc_tit { padding-left:10px; width:970px; height:25px; line-height:25px; background:#c9003d; color:#fff; font-size:13px;}
+#mc .mc_con { width:978px; border:1px solid #dcdcdc; zoom:1;} 
+#mc .mc_con:after { content:""; display:block; clear:both; height:0;}
+.bx_wrapall { float:left; width:1110px; position:relative;}
+#mc .mc_con .prev { float:left; width:43px; height:120px; padding-right:2px; background:url(../images/thirdpage/icon_arrow_left.jpg) 6px 40px no-repeat; text-indent:-99999px;}
+#mc .mc_con .prev:hover{ background:url(../images/thirdpage/icon_arrow_lefthover.jpg) 6px 40px no-repeat;}
+#mc .mc_con .next { float:left; display:block; width:43px; height:170px; background:#fff url(../images/thirdpage/icon_arrow_right.png) 6px 40px no-repeat; text-indent:-99999px; position:absolute; left:935px; z-index:100;}
+#mc .mc_con .next:hover{ background:#fff url(../images/thirdpage/icon_arrow_righthover.png) 6px 40px no-repeat;}
+#mc .mc_con .con_list { float:left; width:1500px; }
+#mc .mc_con .con_list li { float:left; width:195px; padding-right:30px;}
+#mc .mc_con .con_list .last_li { padding-right:0;}
+#mc .mc_con .con_list li .mcon_img { width:195px; height:183px;}
+#mc .mc_con .con_list li .mcon_price { width:195px; height:17px; text-align:center; font-family:"微软雅黑"; font-weight:bold; color:#c9003d; }
+#mc .mc_con .con_list li .mcon_tit { padding-left:13px; width:177px; height:41px; line-height:18px; overflow:hidden; color:#666;}
+#mc .mc_con .con_list li .mcon_tit:hover { color:#c9003d; text-decoration:underline;}
+#mc .mc_con .con_list li .add { width:200px; height:38px; text-align:center;}

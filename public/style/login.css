@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:url(../images/register/bg_body.jpg);}
+#warp { width:100%;}
+#contents { width:100%;}
+#contents .logintit { width:932px; height:95px; background:url(../images/register/logo.jpg) top left no-repeat; margin:0 auto;}
+#contents .logincon { width:932px; margin:0 auto;}
+#contents .logincon .logincon_left { float:left; width:482px; height:480px;}
+#contents .logincon .logincon_right { float:left; width:450px; height:475px; border-top:5px solid #c9003d;}
+#contents .logincon .logincon_right .rtit { padding:11px 0 0 40px; width:410px; height:40px;} 
+#contents .logincon .logincon_right .rtit .lefttit { float:left; width:120px; font-family:"微软雅黑"; font-size:18px;}
+#contents .logincon .logincon_right .rtit  a { float:right; color:#666;}
+#contents .logincon .logincon_right .rtit  a:hover { color:#c9003d; text-decoration:underline;}
+#contents .logincon .logincon_right .loginwindow { padding-left:40px;}
+#contents .logincon .logincon_right .loginwindow .win_usename { width:370px; height:35px; line-height:35px; margin-bottom:20px;}
+#contents .logincon .logincon_right .loginwindow .win_password { width:370px; height:35px; line-height:35px; margin-bottom:12px; position:relative; position:relative; z-index:5;}
+#contents .logincon .logincon_right .loginwindow .win_password2 { margin-bottom:0;}
+#contents .logincon .logincon_right .loginwindow .win_password .tips { position:absolute; top:0px; left:60px; color:#dcdcdc; font-size:14px; font-family:"微软雅黑"; z-index:4;}
+#contents .logincon .logincon_right .rtit span { float:right; padding:0 11px;}
+#contents .logincon .other { padding-left:40px; height:38px;}
+#contents .logincon .other .auto { float:left; width:84px; font-family:"微软雅黑"; font-size:13px;}
+#contents .logincon .other .auto span { display:block; float:left; padding:2px 6px 0 1px;}
+#contents .logincon .other .door { float:left; width:111px; font-family:"微软雅黑"; font-size:13px; cursor:pointer;}
+#contents .logincon .other .door img { padding-right:5px;}
+#contents .logincon .other .forget { float:left; width:64px; font-size:13px;}
+#contents .logincon .other .forget a { color:#004dcd; }
+#contents .logincon .other .forget a:hover { text-decoration:underline;}
+#contents .logincon .other .forget2 { float:left; width:64px; font-size:13px; font-family:"微软雅黑"; }
+#contents .logincon .other .forget2 a { color:#c9003d; }
+#contents .logincon .other .forget2 a:hover { text-decoration:underline;}
+#contents .logincon .easy { padding:24px 0 0 40px; height:22px; font-size:14px; font-family:"微软雅黑"; }
+#contents .logincon .easylogincon { height:15px; line-height:15px; padding:0 0 28px 40px;}
+#contents .logincon .easylogincon li { float:left; padding-right:13px;}
+#contents .logincon .easylogincon li a { color:#004dcd;}
+#contents .logincon .easylogincon li a:hover { text-decoration:underline;}
+#contents .logincon .easylogincon li img { padding:0px 3px 0 1px; float:left;}
+#contents .logincon .easylogincon li span { padding-top:2px;}
+#contents .logincon .bottom {width:450px; height:70px; padding-bottom:23px; background:url(../images/login/bottombg.jpg) left bottom no-repeat;}
+#contents .logincon .bottom .b_l { float:left; width:212px; height:52px; padding:18px 0 0 13px; background:#fbe2c4; color:#aa8d6a;}
+#contents .logincon .bottom .b_l .line1 { height:21px; font-size:14px; font-family:"微软雅黑"; font-weight:bold;}
+#contents .logincon .bottom .b_l .line2 { font-size:13px; font-family:"微软雅黑";}
+#contents .logincon .bottom .b_r { float:left; width:212px; height:52px; padding:18px 0 0 13px;  background:#89c3eb; color:#567e99;}
+#contents .logincon .bottom .b_r .line1 { height:21px; font-size:14px; font-family:"微软雅黑"; font-weight:bold;}
+#contents .logincon .bottom .b_r .line2 { font-size:13px; font-family:"微软雅黑";}
+.inputtit { float:left; padding-left:7px; width:54px; height:33px; font-family:"微软雅黑"; font-size:13px; border-left:1px solid #dcdcdc; border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; line-height:33px; background:#fff;}
+.inputtiterror{ border-left:1px solid #c9003d; border-top:1px solid #c9003d; border-bottom:1px solid #c9003d; }
+.input_window { float:left; width:307px; height:33px; line-height:33px; border-right:1px solid #dcdcdc;border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; border-left:none; font-size:13px; color:#dcdcdc; font-family:"微软雅黑"; position:relative; z-index:5; background:none;}
+.error { border-right:1px solid #c9003d; border-top:1px solid #c9003d; border-bottom:1px solid #c9003d; color:#c9003d;}
+/* door */
+.inputtit2 { float:left; padding-left:7px; width:83px; height:33px; font-family:"微软雅黑"; font-size:13px; border-left:1px solid #dcdcdc; border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; line-height:33px; background:#fff;}
+.inputtit2error { border-left:1px solid #c9003d; border-top:1px solid #c9003d; border-bottom:1px solid #c9003d; }
+.input_window2 { float:left; width:278px; height:33px; border-right:1px solid #dcdcdc;border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; border-left:none; font-size:13px; color:#dcdcdc; font-family:"微软雅黑";}
+.input_window2error { border-right:1px solid #c9003d; border-top:1px solid #c9003d; border-bottom:1px solid #c9003d; color:#c9003d;}
+.loginbutton { width:370px; height:40px; background:url(../images/login/login.png) no-repeat; border:none; margin-left:40px; cursor:pointer;}
+.wid { width:486px; height:54px;}
+.loginerror { line-height:18px; width:368px; background:#ffebec;  border:1px solid #c9003d; color:#c9003d; margin-left:40px; margin-bottom:10px;}
+#doorbutton { display:none;}
+.currentpass{ display:none;}
+
+

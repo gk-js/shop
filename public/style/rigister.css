@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:url(../images/register/bg_body.jpg);}
+#warp { width:100%;}
+#contents { width:100%;}
+#contents .logtit { width:940px; height:95px; background:url(../images/register/logo.jpg) left top no-repeat; margin:0 auto; }
+#contents .register { width:940px; height:420px; background:#fff; border-top:5px solid #c9003d;  margin:0 auto;}
+#contents .register .re_left { float:left; width:486px; padding-left:30px;}
+#contents .register .re_left .re_lefttit { padding-top:7px; height:43px; font-family:"微软雅黑"; font-size:18px;} 
+#contents .register .re_left .re_nametit { float:left; width:75px; height:25px; line-height:25px; text-align:right; color:#2b2b2b;}
+#contents .register .re_left .re_nametit span { color:#c9003d; }
+#contents .register .re_left .re_nameinput { float:left; width:261px; height:25px;}
+#contents .register .re_left .re_nameinput .yanzimg { float:left; width:65px; height:24px; border:1px dashed #2b2b2b; margin:0 6px 0 4px;}
+#contents .register .re_left .re_nameinput .yanztext { float:left; width:107px; height:25px; line-height:25px; color:#004dcd; text-decoration:underline; font-size:13px; cursor:pointer;}
+#contents .register .re_left .re_namer { float:left; width:117px; height:25px;}
+#contents .register .re_left .re_namer_right { background:url(../images/register/pass.png) 25px 3px no-repeat;}
+#contents .register .re_left .re_namer_error { background:url(../images/register/error.png) 25px 3px no-repeat;}
+#contents .register .re_left .re_nametips { float:left; padding-left:75px; height:29px; line-height:29px; color:#c9003d;}
+#contents .register .re_left .agree { margin:8px 0 0 75px;}
+#contents .register .re_left .agree2 { padding:12px 0 0 78px;}
+#contents .register .re_left .agree2 a { color:#004dcd;}
+#contents .register .re_left .agree2 a:hover { text-decoration:underline;}
+#contents .register .re_right { float:left; width:424px;}
+.nameinput { width:259px; height:23px; line-height:23px; border:1px solid #dcdcdc; color:#dcdcdc;}
+#contents .register .re_right .re_righttit { padding:8px 50px 0 0; height:42px;} 
+#contents .register .re_right .re_righttit a { float:right; color:#666;}
+#contents .register .re_right .re_righttit a:hover { color:#c9003d; text-decoration:underline;}
+#contents .register .re_right .re_righttit span { float:right; padding:0 11px;}
+#contents .register .re_right .card { width:363px; height:194px; border:5px solid #dcdcdc;}
+#contents .register .re_right .card .cardmian { margin:22px 0 0 35px; width:293px; height:103px; border-bottom:5px solid #dcdcdc;}
+#contents .register .re_right .card .cardmian img { float:left; padding:0 11px 0 57px;}
+#contents .register .re_right .card .cardmian .text { float:left; width:94px; padding-top:9px; line-height:32px; font-size:18px; font-family:"微软雅黑"; color:#2b2b2b;}
+#contents .register .re_right .card .yanz { width:363px; padding-top:18px; text-align:center;}
+#contents .register .re_right .card .yanz a { width:81px; height:28px; padding:7px 6px; border:1px solid #dcdcdc; font-size:14px; font-family:"微软雅黑"; color:#2b2b2b;}
+#contents .register .re_right .login { padding-top:56px; height:36px; line-height:36px; color:#2b2b2b; width:230px;}
+#contents .register .re_right .login a { width:77px; height:34px; border:1px solid #dcdcdc; background:url(../images/register/bg_login.jpg) repeat-x; float:right; display:block; font-family:"微软雅黑"; font-size:18px; color:#666; text-align:center;  line-height:34px;}
+#contents .register .re_right .easylogin { height:29px; line-height:29px; }
+#contents .register .re_right .easylogincon { height:15px; line-height:15px; padding-bottom:30px;}
+#contents .register .re_right .easylogincon li { float:left; padding-right:13px;}
+#contents .register .re_right .easylogincon li a { color:#004dcd;}
+#contents .register .re_right .easylogincon li a:hover { text-decoration:underline;}
+#contents .register .re_right .easylogincon li img { padding:2px 3px 0 1px;}
+#contents .bottom { margin-left:105px; width:787px; height:55px; background:url(../images/register/bottombg.jpg) no-repeat; margin:0 auto;}
+#contents .register .re_right .easylogincon li span { padding-top:2px;}
+.wid { width:486px; height:54px;}
+.button_agree{ width:261px; height:40px; background:url(../images/register/agreebutton.jpg) no-repeat; border:none; cursor:pointer;}
+.input_yanz { float:left; width:64px; height:23px; line-height:23px; border:1px solid #dcdcdc;}

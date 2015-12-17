@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-size:13px;}
+/*二级页单独样式*/
+#header .nav { height:0;} 
+.group { width:231px; height:400px; background:url(../images/shodow.png) right repeat-y; position:absolute; top:40px; left:0; font-size:12px; z-index:1; line-height:normal; font-family:"宋体"; display:none;}
+.suball { float:left; width:169px; height:40px; line-height:40px; padding-left:62px; background:url(../images/bg_all.jpg) repeat-x; position:relative;}
+.allpro { background:url(../images/bg_all2.jpg) 112px 16px no-repeat;  font-family:"微软雅黑"; font-size:16px; color:#fff;}
+.allpro2 { background:url(../images/bg_all2hover.jpg) 112px 16px no-repeat;}
+/* 覆盖首页样式 */
+#header .search .searchmain { width:980px; margin:0 auto;}
+#header .search .searchmain .inputtext { float:left; width:355px; height:61px; padding:19px 0 0 100px; position:relative; }
+.inputleft { float:left; width:122px; height:61px; padding:19px 0 0 167px; background:url(../images/bg_h1.jpg) left 12px no-repeat; font-size:17px; color:#ca0439;}
+.input2 { float:left; width:248px; height:28px; line-height:28px; border:2px solid #c9043c; color:#bababa;}
+#header .navlistall .navlist .weblist { float:left; width:499px;}
+#header .navlistall .navlist { width:980px; height:40px; margin:0 auto;}
+.step { height:100px;}
+
+/* 新添加样式 */
+#contents { padding-top:40px; width:980px; margin:0 auto;}
+#contents .maintit { width:980px; height:46px;}
+#contents .maintit .text1 { float:left; width:80px; padding:12px 0 0 2px; font-family:"微软雅黑"; font-size:20px; font-weight:bold;}
+#contents .maintit .text2 { float:left; padding-top:20px; font-size:13px; font-family:"微软雅黑"; }
+#contents .maintit .text2 a { color:#666;}
+#contents .maintit .text2 a:hover { color:#c9003d; text-decoration:underline;}
+#contents .maintit .text2 span { padding:0 6px;}
+#contents .orderState { width:980px; height:158px; border-top:3px solid #c9003d;}
+#contents .orderState .orderStatemain { width:978px; height:156px; border:1px solid #dcdcdc; background:#ebffde;}
+#contents .orderState .orderStatemain .success { width:818px;}
+#contents .orderState .orderStatemain .success .but { float:right; display:inline-block; width:71px; height:25px; background:url(../images/order/bg_button.png) no-repeat; line-height:25px; text-align:center; color:#fff; margin:6px 6px 0 0;}
+#contents .orderState2 { padding-left:30px; height:126px;}
+#contents .order_fllowing { width:978px; border-top:3px solid #c9003d; border-left:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; border-right:1px solid #dcdcdc; zoom:1; clear:both;}
+#contents .order_fllowing:after { content:""; display:block; clear:both; height:0;}
+#contents .order_fllowing  .fllowingtit { float:left; padding-left:19px; width:959px; background:#f1f1f1; height:33px; line-height:33px;}
+#contents .order_fllowing  .fllowingtit span { font-size:18px; font-family:"微软雅黑"; display:inline-block; }
+#contents .order_fllowing  .fllowingtit .but_phone { display:inline-block; float:right; width:119px; height:25px; line-height:25px; text-align:center; color:#fff; background:url(../images/order/but_phone.png) no-repeat; margin:4px 7px 0 0;}
+#contents .order_fllowing  .fllowinginfo { width:978px;}
+#contents .order_fllowing  .fllowinginfo th { height:33px; font-family:"微软雅黑"; font-size:14px; line-height:33px; border-bottom:1px solid #dcdcdc; text-align:left; color:#2b2b2b;}
+#contents .order_fllowing  .fllowinginfo td { height:17px; line-height:17px; color:#2b2b2b;}
+#contents .order_fllowing .orderinfo { padding:16px 0 0 19px; height:19px;}
+#contents .order_fllowing .orderinfo dl { padding-right:30px; float:left;}
+#contents .order_fllowing .orderinfo dl dt { float:left;}
+#contents .order_fllowing .orderinfo dl dd { float:left;}
+#contents .order_info { margin-top:17px; width:978px; border-top:3px solid #c9003d; border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;}
+#contents .order_info .order_infotit { width:959px; height:33px; padding-left:19px; line-height:33px; background:#f1f1f1; font-size:18px; font-family:"微软雅黑"; border-bottom:1px solid #dcdcdc; color:#2b2b2b;}
+#contents .order_info .order_infolist { padding:0 0 11px 19px; width:959px; border-bottom:1px solid #dcdcdc; color:#2b2b2b;}
+#contents .order_info .order_infolist:after { content:""; display:block; clear:both; height:0;}
+#contents .order_info .order_infolist .tit { width:959px; height:36px; line-height:36px; font-size:14px; font-family:"微软雅黑"; font-weight:bold; }
+#contents .order_info .order_infolist .line { height:18px;}
+#contents .order_info .order_infolist .line span { padding-right:15px;}
+.protab { padding:10px 0 0 0; width:928px;} 
+.bottomprice { clear:both; width:959px; height:51px; background:#f2f2f2; line-height:51px; text-align:right;}
+

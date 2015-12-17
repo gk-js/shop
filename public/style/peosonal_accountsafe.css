@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#contents .rightCon .pagetit_safe { width:769px; height:28px; line-height:28px; padding-left:19px; border:1px solid #dcdcdc; font-weight:bold; color:#c9003d; margin-top:7px;}
+#contents .rightCon .pagetit_safetips {width:769px; height:43px; line-height:43px; padding-left:19px; border-left:1px solid #ffdf92;  border-right:1px solid #ffdf92;  border-bottom:1px solid #ffdf92; background:#fff4d8; margin-bottom:10px;}
+#contents .rightCon .safecon { width:760px; padding-left:28px; border:1px solid #dcdcdc; margin-bottom:10px;}
+#contents .rightCon .safecon .safeconlist { width:655px; height:88px; line-height:88px; padding-left:74px; border-bottom:1px dashed #dcdcdc; background:url(../images/personalcenter/icon_safe.png) 23px center no-repeat;}
+#contents .rightCon .safecon .safeconlist .tit { font-weight:bold; color:#2b2b2b; font-family:"微软雅黑"; font-size:20px; padding-right:50px; background:url(../images/personalcenter/icon_tit.png) 104px center no-repeat; }
+#contents .rightCon .safecon .dangerous { background:url(../images/personalcenter/icon_dangerous.png) 23px center no-repeat;}
+#contents .rightCon .safecon .last { border-bottom:none;}
+#contents .rightCon .safecon .safeconlist .change { float:right; padding-right:15px;}
+#contents .rightCon .safecon .safeconlist .bind {float:right; width:48px; height:25px; background:url(../images/personalcenter/bg_bind.png) no-repeat; line-height:25px; text-align:center; color:#2b2b2b; margin:32px 5px 0 0;}

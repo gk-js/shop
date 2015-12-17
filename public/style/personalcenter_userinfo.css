@@ -1,0 +1,62 @@
+@charset "utf-8";
+#contents .rightCon .person_infotit { width:770px; padding-left:18px; height:28px; line-height:28px; margin-top:7px; border:1px solid #dcdcdc; color:#c9003d; font-weight:bold; }
+#contents .rightCon .person_infotips { width:770px; padding-left:18px; background:#fff4d8; height:43px; line-height:43px; border-left:1px solid #ffdf92; border-right:1px solid #ffdf92; border-bottom:1px solid #ffdf92;}
+#contents .rightCon .ordermenutit { width:783px; padding-left:7px; height:31px; border:none; line-height:31px; background:url(../images/personalcenter/bg_ordertit2.jpg) repeat-x; margin-top:7px;}
+#contents .rightCon .userInfo { float:left; width:633px; padding-top:20px;}
+#contents .rightCon .userInfo .tips { padding-left:56px; height:32px; background:url(../images/personalcenter/icon.jpg) 33px 0 no-repeat; color:#2b2b2b;}
+#contents .rightCon .userInfo .tips .detail { position:relative;}
+#contents .rightCon .userInfo .tips .integral { position:absolute; width:167px; height:115px; padding:10px 0 0 10px; border:1px solid #ffdf92; background:#fff4d8; top:20px; left:-50px; display:none;}
+#contents .rightCon .userInfo .tips .integral dl { width:167px; height:23px; padding-bottom:0; color:#666; }
+#contents .rightCon .userInfo .tips .integral dl dt { float:left; width:101px; height:23px; text-align:left;}
+#contents .rightCon .userInfo .tips .integral dl dd { float:left; width:50px; height:23px; text-align:center;}
+#contents .rightCon .userInfo .tips .integral .icon { position:absolute; top:-5px; left:72px; width:9px; height:6px; background:url(../images/personalcenter/icon_header.png) no-repeat;} 
+#contents .rightCon .userInfo .tips .integral .close { width:6px; height:8px; position:absolute; top:5px; right:4px; background:url(../images/personalcenter/icon_close.png) no-repeat; cursor:pointer;}
+#contents .rightCon .userInfo .tips a { padding-right:13px; background:url(../images/personalcenter/icon_more.png) right center no-repeat;}
+#contents .rightCon .userInfo dl { width:633px; height:26px; padding-bottom:17px; color:#2b2b2b;}
+#contents .rightCon .userInfo dl dt{ float:left; width:107px; height:26px; line-height:26px; text-align:right;}
+#contents .rightCon .userInfo dl dd { float:left; width:526px; height:26px; line-height:26px; }
+#contents .rightCon .userInfo dl dd .inpurtext { width:123px; height:24px; border-right:1px solid #dcdcdc; border-left:1px solid #666;  border-bottom:1px solid #dcdcdc; border-top:1px solid #666; margin-right:8px; padding:0 3px;}
+#contents .rightCon .userInfo dl dd .selyear { float:left; width:53px; height:20px; border-right:1px solid #dcdcdc; border-left:1px solid #666;  border-bottom:1px solid #dcdcdc; border-top:1px solid #666; margin-right:4px; margin-top:3px;}
+#contents .rightCon .userInfo dl dd .input_detailarea { width:300px;}
+#contents .rightCon .userInfo dl dd .sex { float:left; width:56px; height:25px; line-height:25px; }
+#contents .rightCon .userInfo dl dd .sex span { display:inline-block; float:left; margin:6px 3px 0 0;}
+#contents .rightCon .userInfo dl dd .selday { width:39px;}
+#contents .rightCon .userInfo dl dd .idCard { width:194px;}
+#contents .rightCon .userInfo dl dd .selarea { width:61px;}
+#contents .rightCon .userInfo dl dd .save_but { width:94px; height:34px; line-height:34px; text-align:center; font-family:"微软雅黑"; font-size:16px; font-weight:bold; color:#fff; background:url(../images/personalcenter/but_save.png) no-repeat;} 
+#contents .rightCon .userImg { float:left; width:155px; padding-top:20px;}
+#contents .rightCon .userImg .warpimg { width:130px; height:130px; border:1px solid #dcdcdc;}
+#contents .rightCon .userImg .warpimg img { border:5px solid #fff;}
+/*覆盖样式*/
+#contents .rightCon .userImg .changeimg { width:132px; height:22px; line-height:22px; text-align:center; cursor:pointer; position:relative;}
+#contents .rightCon .userImg .upload { width:567px; height:425px; position:absolute; left:230px; box-shadow:3px 3px 3px rgba(0,0,0,0.2); background:#fff; color:#2b2b2b; display:none;}
+#contents .rightCon .userImg .upload .tit{ padding:0 9px; height:30px; line-height:30px; background:#c9003d; color:#fff;}
+#contents .rightCon .userImg .upload .tit .text1 { float:left;}
+#contents .rightCon .userImg .upload .tit .text2 { float:right; cursor:pointer;}
+#contents .rightCon .userImg .upload .headerimg_sel { padding-left:9px; height:35px; line-height:35px;}
+#contents .rightCon .userImg .upload .headerimg_sel a { color:#2b2b2b;}
+#contents .rightCon .userImg .upload .headerimg_sel span { padding:0 7px;}
+#contents .rightCon .userImg .upload .file { height:25px; line-height:25px; padding-left:9px;}
+#contents .rightCon .userImg .upload .file .file_button { display:inline-block; width:71px; height:25px; line-height:25px; text-align:center; color:#fff; background:url(../images/personalcenter/bg_button.png) no-repeat; margin-right:7px;}
+#contents .rightCon .userImg .upload .imgview { float:left; width:255px; height:257px; padding:8px 0 0 1px; border-right:1px solid #dcdcdc; margin-top:7px;}
+#contents .rightCon .userImg .upload .imgsize { float:left; width:285px; height:268px; padding:7px 0 0 15px;}
+#contents .rightCon .userImg .upload .imgsize .tips { width:266px; height:44px; line-height:18px;}
+#contents .rightCon .userImg .upload .imgsize .line1 { width:256px; height:126px;}
+#contents .rightCon .userImg .upload .imgsize .line2 { width:256px; height:27px;}
+#contents .rightCon .userImg .upload .imgsize .line3 { width:256px; height:57px; }
+#contents .rightCon .userImg .upload .imgsize .line4 { width:256px; height:14px; }
+#contents .rightCon .userImg .upload .imgsize .img2 { padding:40px 0 0 32px;}
+#contents .rightCon .userImg .upload .imgsize .img3 { padding-left:34px;}
+#contents .rightCon .userImg .upload .imgsize .img4 { padding:29px 0 0 98px;}
+#contents .rightCon .userImg .upload .imgsize .imgname1 { display:inline-block; float:left; width:120px; text-align:center;}
+#contents .rightCon .userImg .upload .imgsize .imgname2 { display:inline-block; float:left; margin-left:32px; width:80px; text-align:center;}
+#contents .rightCon .userImg .upload .imgsize .imgname3 { float:left; padding-left:31px; width:135px;}
+#contents .rightCon .userImg .upload .imgsize .imgname4 { float:left; }
+#contents .rightCon .userImg .upload .bottom_button { clear:both; padding:27px 0 0 184px; height:39px;}
+#contents .rightCon .userImg .upload .bottom_button .bottom_button1 { float:left; display:inline-block; width:70px; height:25px; line-height:25px; text-align:center; background:url(../images/personalcenter/uploadimgbutton.png) no-repeat; margin-right:42px; cursor:pointer; }
+#contents .rightCon .userImg .upload .bottom_button .bottom_button2 { float:left; display:inline-block; width:70px; height:25px; line-height:25px; text-align:center; background:url(../images/personalcenter/uploadimg.png) no-repeat; cursor:pointer; }  
+#system { padding:8px; height:270px;}
+#system li { float:left; width:81px; height:81px; padding:0 20px 20px 0;}
+#system .hoverli{}
+#system .hoverli img { border:1px solid #c9003d;}
+#setting {display:none;}

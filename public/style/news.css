@@ -1,0 +1,23 @@
+@charset "utf-8";
+.newscon { width:954px; padding-left:24px; border:1px solid #dcdcdc; margin:7px 0 20px 0; zoom:1;}
+.newscon:after { content:""; display:block; clear:both; height:0;}
+.newscon  .tit { height:52px; line-height:52px; font-size:20px; font-weight:bold; font-family:"微软雅黑"; color:#2b2b2b;}
+.newscon .adcontent { float:left; width:255px;}
+.newscon .adcontent .adwindow { width:204px; height:154px; border:1px solid #dcdcdc;}
+.newscon .adcontent .adwindow img { border:2px solid #fff;}
+.newscon .adcontent .adtit { width:201px; height:24px; line-height:24px; margin-bottom:8px; padding-left:3px; overflow:hidden;}
+.newscon .newsList { float:left; width:680px; margin:8px 0 14px 0;}
+.newscon .newsList li { width:652px; height:31px; line-height:32px; border-bottom:1px dotted #b1b1b1;}
+.newscon .newsList li a { float:left; color:#2b2b2b; background:url(../images/news/liststyle.jpg) left 15px no-repeat; padding-left:8px;}
+.newscon .newsList li a:hover { color:#c9003d; text-decoration:underline;}
+.newscon .newsList li .time { float:right;}
+/*页码样式*/
+.pagenum { height:43px; display:block; clear:both; padding-right:47px;} 
+.pagenum a { float:right; width:23px; height:23px; border:1px solid #dcdcdc; line-height:23px; text-align:center; color:#666; margin-right:4px;}
+.pagenum a:hover {float:right; width:25px; height:25px; background:#c9003d; color:#fff; line-height:25px; text-align:center; border:none;}
+.pagenum .ahover {float:right; width:25px; height:25px; background:#c9003d; color:#fff; line-height:25px; text-align:center; border:none;}
+.pagenum .nextPage { float:right; display:inline-block; width:61px; height:23px; border:1px solid #dcdcdc; line-height:23px; text-align:center; color:#666; margin-right:4px;}
+.pagenum .nextPage:hover { float:right; width:63px; height:25px; background:#c9003d; color:#fff; line-height:25px; text-align:center; border:none;}
+.pagenum .sure { float:right; display:inline-block; width:41px; height:25px; background:url(../images/personalcenter/bg_but.jpg) no-repeat; line-height:25px; text-align:center; color:#2b2b2b; cursor:pointer;}
+.pagenum .text { float:right; height:25px; line-height:25px; padding:0 2px;}
+.pagenum .inputnum { width:23px; height:23px; border:1px solid #dcdcdc;}

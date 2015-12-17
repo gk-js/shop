@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+#contents .rightCon .ordermenutit { width:783px; padding-left:7px; height:31px; border:none; line-height:31px; background:url(../images/personalcenter/bg_ordertit2.jpg) repeat-x; margin-top:7px;}
+#contents .rightCon .refundcon { width:788px; border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; } 
+#contents .rightCon .refundcon .search { width:788px; border-bottom:1px solid #dcdcdc; padding-top:7px; height:33px;}
+#contents .rightCon .refundcon .search  .searchbut { float:right; width:56px; height:25px; text-align:center; line-height:25px; background:url(../images/personalcenter/bg_searchbut.png) no-repeat; color:#2b2b2b;}
+#contents .rightCon .refundcon .search  .inputtext { float:right; width:187px; padding-left:6px; height:23px; border-left:1px solid #dcdcdc; border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; border-top:1px solid #2b2b2b; color:#2b2b2b; margin-right:8px;}
+#contents .rightCon .refundcon .pro_tab { width:788px;}
+#contents .rightCon .refundcon .pro_tab th { font-weight:normal;  height:28px; line-height:28px; border-bottom:1px solid #dcdcdc; }
+#contents .rightCon .refundcon .pro_tab td {  border-bottom:1px solid #dcdcdc;  border-right:1px solid #dcdcdc;}
+#contents .rightCon .refundcon .pro_tab .lasttd { border-right:none;}
+#contents .rightCon .refundcon .pro_tab .pro_ordertit { width:778px; height:27px; line-height:27px; border-bottom:1px solid  #dcdcdc; border-top:1px solid  #dcdcdc; background:#f6f6f6; }
+#contents .rightCon .refundcon .pro_tab .pro_ordertit .ordernum { float:left; padding-left:7px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordertit .orderTime { float:right; padding-right:7px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon {zoom:1; padding-bottom:3px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon:after { display:block; content:""; height:0; clear:both;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro { float:left; width:396px; padding-top:10px; } 
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .butrefund { float:left; display:inline-block; width:48px; height:25px; line-height:25px; text-align:center; margin:16px 16px 0 14px; color:#2b2b2b; background:url(../images/personalcenter/bg_butrefun.jpg) no-repeat;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo { float:left; width:318px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo  .pro_tit{ width:307px; line-height:18px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo  .pro_tit img { float:left; border:1px solid #dcdcdc; margin-right:6px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo  .pro_tit a:hover { text-decoration:underline;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo dl { padding:14px 0 0 14px; height:40px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo dl dt { float:left; width:52px; line-height:18px;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo dl dt span { display:inline-block; width:30px; height:17px; line-height:17px; text-align:center; background:#c9003d; color:#fff;}
+#contents .rightCon .refundcon .pro_tab .pro_ordercon .pro .proallinfo dl dd { float:left; width:245px; line-height:18px; } 
+#contents .rightCon .refundcon .pro_tab .pro2 { text-align:center;}
+
+#contents .rightCon .pagenum { float:right; height:43px; padding-top:9px; width:auto; clear:both;} 
+#contents .rightCon .pagenum a { float:left; width:23px; height:23px; border:1px solid #dcdcdc; line-height:23px; text-align:center; color:#666; margin-right:4px;}
+#contents .rightCon .pagenum a:hover {float:left; width:25px; height:25px; background:#c9003d; color:#fff; line-height:25px; text-align:center; border:none;}
+#contents .rightCon .pagenum .ahover {float:left; width:25px; height:25px; background:#c9003d; color:#fff; line-height:25px; text-align:center; border:none;}
+#contents .rightCon .pagenum .nextPage { float:left; display:inline-block; width:61px; height:23px; border:1px solid #dcdcdc; line-height:23px; text-align:center; color:#666; margin-right:4px;}
+#contents .rightCon .pagenum .nextPage:hover { float:left; width:63px; height:25px; background:#c9003d; color:#fff; line-height:25px; text-align:center; border:none;}
+#contents .rightCon .pagenum .sure { float:left; display:inline-block; width:41px; height:25px; background:url(../images/personalcenter/bg_but.jpg) no-repeat; line-height:25px; text-align:center; color:#2b2b2b; cursor:pointer;}
+#contents .rightCon .pagenum .text { float:left; height:25px; line-height:25px; padding:0 2px;}
+#contents .rightCon .pagenum .inputnum { width:23px; height:23px; border:1px solid #dcdcdc;}
+/*
+#contents .rightCon .refundcon .pro_listtit { width:788px; height:28px; line-height:28px; text-align:right;}
+#contents .rightCon .refundcon .pro_listtit .text1 { float:left; width:223px;}
+#contents .rightCon .refundcon .pro_listtit .text2 { float:left; width:360px;}
+#contents .rightCon .refundcon .pro_listtit .text3 { float:left; width:192px;}
+#contents .rightCon .refundcon .pro_ordertit { width:774px; height:27px; padding:0 7px; line-height:27px; border-bottom:1px solid  #dcdcdc; border-top:1px solid  #dcdcdc; background:#f6f6f6; }
+#contents .rightCon .refundcon .pro_ordertit .ordernum { float:left;}
+#contents .rightCon .refundcon .pro_ordertit .orderTime { float:right; vertical-align:}
+#contents .rightCon .refundcon .pro_ordercon { width:788px; zoom:1;}
+#contents .rightCon .refundcon .pro_ordercon:after { display:block; content:""; height:0; clear:both;}
+#contents .rightCon .refundcon .pro_ordercon .pro { float:left; width:396px; padding-top:10px; border-right:1px solid #dcdcdc;} 
+#contents .rightCon .refundcon .pro_ordercon .pro .butrefund { float:left; display:inline-block; width:48px; height:25px; line-height:25px; text-align:center; margin:16px 16px 0 14px; color:#2b2b2b; background:url(../images/personalcenter/bg_butrefun.jpg) no-repeat;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo { float:left; width:318px;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo  .pro_tit{ width:307px; line-height:18px;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo  .pro_tit img { float:left; border:1px solid #dcdcdc; margin-right:6px;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo  .pro_tit a:hover { text-decoration:underline;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo dl { padding:14px 0 0 14px; height:40px;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo dl dt { float:left; width:52px; line-height:18px;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo dl dt span { display:inline-block; width:30px; height:17px; line-height:17px; text-align:center; background:#c9003d; color:#fff;}
+#contents .rightCon .refundcon .pro_ordercon .pro .proallinfo dl dd { float:left; width:245px; line-height:18px; }
+#contents .rightCon .refundcon .pro_ordercon .progift { float:left; width:313px; padding-top:10px; border-right:1px solid #dcdcdc; vertical-align:middle;}
+*/
+#contents .rightCon .refundcon .pro_ordercon .pronum { float:left; width:77px; padding-top:10px; vertical-align:middle; text-align:center;}
+#contents .rightCon .refunquestion { width:759px; border:1px solid #dcdcdc; padding:17px 0 0 29px; margin-bottom:10px; position:relative; line-height:23px; clear:both; }
+#contents .rightCon .refunquestion .q_tit { height:12px; padding:0 7px; position:absolute; left:10px; top:-10px; background:#fff;}

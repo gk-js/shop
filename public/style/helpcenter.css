@@ -1,0 +1,12 @@
+@charset "utf-8";
+#contents .leftMenu .mycw { width:170px; height:35px; line-height:35px; padding-left:10px; font-family:"微软雅黑"; font-size:16px; color:#fff; background:#c9003d; margin-top:7px; }
+#contents .rightCon .questiontit { width:759px; height:35px; line-height:35px; background:#c9003d; padding-left:31px; margin-top:7px;}
+#contents .rightCon .questiontit a { color:#fff;}
+#contents .rightCon .questiontit a:hover { text-decoration:underline;}
+#contents .rightCon .questiontit span { padding:0 19px; color:#fff;}
+#contents .rightCon .queationcon { width:790px;}
+#contents .rightCon .queationcon .tit { padding-left:4px; height:30px; line-height:30px; font-size:14px; font-weight:bold;}
+#contents .rightCon .queationcon dl { padding-left:4px; width:786px; margin-bottom:6px; color:#2b2b2b; zoom:1px;}
+#contents .rightCon .queationcon dl:after { content:""; display:block; clear:both; height:0;}
+#contents .rightCon .queationcon dl dt { width:749px; height:23px; line-height:23px; font-weight:bold; }
+#contents .rightCon .queationcon dl dd { width:749px; text-indent:-22px; padding-left:22px; line-height:23px; }
